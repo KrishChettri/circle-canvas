@@ -64,7 +64,7 @@ canvas.addEventListener("mousemove", my_mousemove);
     canvas.addEventListener("mouseup", my_mouseup);
 
     function my_mouseup(e){
-        mouseEvent == "mouseUp";
+        mouseEvent = "mouseUp";
     }
 
     /*Create an event listener for "mouseleave"
@@ -80,7 +80,7 @@ canvas.addEventListener("mousemove", my_mousemove);
     canvas.addEventListener("mouseleave", my_mouseleave);
 
     function my_mouseleave(e){
-        mouseEvent == "mouseLeave";
+        mouseEvent = "mouseLeave";
     }
 
 
